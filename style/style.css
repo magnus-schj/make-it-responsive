@@ -1,41 +1,50 @@
 /* GLOBAL STYLES */
+
 * {
   scroll-margin: 50px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.nav-bar {
-  display: inline-flex;
-  flex-direction: row;
+
+nav {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
   min-height: 50px;
-  background-color: rgb(66, 68, 68);
+  background-color: #565656;
   width: 100%;
 }
-.nav-bar ul {
-}
-.nav-bar li {
-  padding-left: 18vw;
+
+nav ul {
+  width: 100%;
   list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+nav li {
+  padding-left: 3vw;
   display: inline-flex;
 }
 
-.nav-bar a {
+nav a {
   border-radius: 5px;
-  margin-top: 5px;
   padding: 3px 4px 3px 4px;
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: initial;
-  color: rgb(255, 255, 255);
+  color: white;
   text-transform: uppercase;
   font-size: clamp(1.5rem, 1.5vw, 3rem);
   transform: 0.5s ease;
 }
-.nav-bar a:hover {
+
+nav a:hover {
   background-color: white;
-  color: black;
+  color: #565656;
   box-shadow: 0 0 10px 2px white;
   transition: 0.5s;
 }
@@ -52,35 +61,45 @@ section h1 {
   padding-top: 20vh;
   color: white;
 }
+
 #hero-index {
-  background-color: aqua;
+  background-color: #c5c5c5;
 }
 
 #our-goal {
-  background-color: gold;
+  background-color: #59789B;
 }
 
 #schedule {
-  background-color: coral;
+  background-color: #59789B;
 }
+
 #contact {
-  background-color: cornflowerblue;
+  background-color: #59789B;
 }
 
 footer {
+  width: 100%;
+  position: absolute;
+  display: inline-block;
+  background-color: #565656;
+  color: white;
   text-align: center;
-  padding: 2px;
-  background-color: lightgray;
-  color: black;
-  max-width: 100%;
-  margin: 2px;
+  /* margin: 2px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  /* position: fixed; */
+  align-items: center; */
 }
 
-#div,
-p {
-  margin-left: 10%;
+footer div {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  margin: 20px 0;
+  padding: 0 30px 30px;
+}
+
+div:nth-child(2) {
+  border-left: 1px solid #c5c5c5;
+  border-right: 1px solid #c5c5c5;
 }
