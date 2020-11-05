@@ -69,12 +69,17 @@ section h1 {
 footer {
   text-align: center;
   padding: 2px;
-  background-color: lightblue;
-  color: white;
+  background-color: lightgray;
+  color: black;
   max-width: 100%;
-  margin: 10px;
+  margin: 2px;
   display: flex;
   flex-direction: row;
   align-items: center;
   /* position: fixed; */
+}
+
+#div,
+p {
+  margin-left: 10%;
 }
