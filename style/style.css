@@ -33,8 +33,20 @@
   font-size: clamp(1em, 1.7vw, 1.5em);
 }
 
-footer {
-  text-align: center;
-  padding: 2px;
-  background-color: lightblue;
+section {
+  width: 80vw;
+  min-height: 100vh;
+  margin-bottom: 10vh;
+  margin-left: 10vw;
+}
+.hero {
+  background-color: aqua;
+}
+
+.our-goals {
+  background-color: chartreuse;
+}
+
+.schedule {
+  background-color: coral;
 }
