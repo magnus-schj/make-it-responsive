@@ -67,15 +67,24 @@ section h1 {
 }
 
 #our-goal {
-  background-color: #59789B;
+  background-color: #59789b;
 }
 
 #schedule {
-  background-color: #59789B;
+  background-color: #59789b;
 }
 
 #contact {
-  background-color: #59789B;
+  background-color: #59789b;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+
+#contact,
+p,
+img {
+  padding: 20px;
 }
 
 footer {
