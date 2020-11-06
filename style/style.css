@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+/* NAV */
+
 nav {
   top: 0;
   position: -webkit-sticky;
@@ -49,6 +51,8 @@ nav a:hover {
   transition: 0.5s;
 }
 
+/* SECTIO BASE-ATRIBUTES */
+
 section {
   width: 80vw;
   min-height: 100vh;
@@ -61,6 +65,8 @@ section h1 {
   padding-top: 20vh;
   color: white;
 }
+
+/* SECTION CUSTOM STYLING */
 
 #hero-index {
   background-color: #c5c5c5;
@@ -77,6 +83,9 @@ section h1 {
 #contact {
   background-color: #59789B;
 }
+
+
+/* FOOTER */
 
 footer {
   width: 100%;
