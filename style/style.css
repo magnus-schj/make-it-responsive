@@ -15,29 +15,30 @@ a {
 .main-head {
   color: white;
   background-color: #565656;
+  position: sticky;
+  top: 0;
 }
 
 
 nav {
-  position: -webkit-sticky;
-  position: sticky;
-  min-height: 10vh;
   display: flex;
   align-items: center;
   width: 90%;
   margin: auto;
+  flex-wrap: wrap;
+  min-height: 10vh;
+  padding: 2rem;
 }
 
 #logo {
-  flex: 2 1 10px;
-
+  flex: 2 1 40rem;
 }
 
 nav ul {
-  flex: 3 1 10px;
+  flex: 1 1 40rem;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 10px;
 }
 
