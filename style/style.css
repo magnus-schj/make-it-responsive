@@ -88,6 +88,21 @@ section h1 {
 /* SECTION CUSTOM STYLING */
 
 #hero-index {
+
+  background-color: #50419e8e;
+}
+
+#our-goal {
+  background-color:#886262;
+}
+
+#schedule {
+  background-color: #696288;
+}
+
+#contact {
+  background-color: #886362;
+=======
   opacity: 0;
   background-color: #a29b4c;
   border-radius: 10px;
@@ -106,6 +121,7 @@ section h1 {
 #contact {
   background-color: #59789b;
   border-radius: 10px;
+
 }
 
 /* FOOTER */
