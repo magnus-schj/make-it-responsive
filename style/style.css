@@ -90,18 +90,22 @@ section h1 {
 #hero-index {
   opacity: 0;
   background-color: #a29b4c;
+  border-radius: 10px;
 }
 
 #our-goal {
   background-color: #59789b;
+  border-radius: 10px;
 }
 
 #schedule {
   background-color: #59789b;
+  border-radius: 10px;
 }
 
 #contact {
   background-color: #59789b;
+  border-radius: 10px;
 }
 
 /* FOOTER */
