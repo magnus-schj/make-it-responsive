@@ -25,7 +25,6 @@ a {
   top: 0;
 }
 
-
 nav {
   display: flex;
   align-items: center;
@@ -89,22 +88,21 @@ section h1 {
 /* SECTION CUSTOM STYLING */
 
 #hero-index {
-  opacity: 0.2;
-  background-color: #A29B4C;
+  opacity: 0;
+  background-color: #a29b4c;
 }
 
 #our-goal {
-  background-color: #59789B;
+  background-color: #59789b;
 }
 
 #schedule {
-  background-color: #A29B4C;
+  background-color: #59789b;
 }
 
 #contact {
-  background-color: #59789B;
+  background-color: #59789b;
 }
-
 
 /* FOOTER */
 
