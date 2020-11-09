@@ -7,32 +7,56 @@
   box-sizing: border-box;
 }
 
-nav {
-  top: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  min-height: 50px;
+body {
+  background: url("../img/pexels-min-an-853168.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NAV AND MAIN HEAD*/
+.main-head {
+  color: white;
   background-color: #565656;
-  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  min-height: 10vh;
+  padding: 2rem;
+}
+
+#logo {
+  flex: 2 1 40rem;
 }
 
 nav ul {
-  width: 100%;
+  flex: 1 1 40rem;
   list-style: none;
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
   padding: 10px;
 }
 
 nav li {
   padding-left: 3vw;
-  display: inline-flex;
 }
 
 nav a {
   border-radius: 5px;
   padding: 3px 4px 3px 4px;
-  text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: initial;
@@ -49,34 +73,94 @@ nav a:hover {
   transition: 0.5s;
 }
 
+/* SECTION BASE ATTRIBUTES */
+
 section {
   width: 80vw;
   min-height: 100vh;
   margin-bottom: 10vh;
   margin-left: 10vw;
+  padding: 0 5vw 5vw;
 }
 
 section h1 {
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 10vh;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: 1.5vmax;
+}
+
+section p {
   color: white;
 }
 
+/* SECTION CUSTOM STYLING */
+
 #hero-index {
-  background-color: #c5c5c5;
+  opacity: 0;
+  background-color: #a29b4c;
+  border-radius: 10px;
 }
 
 #our-goal {
-  background-color: #59789B;
+  background-color: #59789b;
+  border-radius: 10px;
 }
 
 #schedule {
-  background-color: #59789B;
+  background-color: rgba(89, 120, 155, 0.8);
+  border-radius: 10px;
+  color: white;
+}
+
+#schedule .schedule {
+  width: 100%;
+}
+
+#schedule .event {
+  margin: 1%;
+  padding: 20px;
+  width: 47.5%;
+  height: 150px;
+  display: inline-block;
+  /* border: 2px solid white; */
+  background-color: rgb(89, 120, 155);
+  overflow: hidden;
+}
+
+#schedule .date {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+
+#schedule .month {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+#schedule .day {
+  display: block;
+  font-size: 4em;
+}
+
+#schedule .desc {
+  width: 75%;
+  float: right;
+  padding-left: 5%;
 }
 
 #contact {
-  background-color: #59789B;
+  background-color: #59789b;
+  border-radius: 10px;
 }
+
+/* FOOTER */
 
 footer {
   width: 100%;
@@ -99,7 +183,15 @@ footer div {
   padding: 0 30px 30px;
 }
 
-div:nth-child(2) {
+footer div:nth-child(2) {
   border-left: 1px solid #c5c5c5;
   border-right: 1px solid #c5c5c5;
+}
+
+/* SMALLER SCREENS */
+
+@media screen and (max-width: 1200px) {
+  #schedule .event {
+    width: 100%;
+  }
 }
