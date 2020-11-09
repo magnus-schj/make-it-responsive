@@ -108,7 +108,6 @@ section h1 {
 #our-goal {
   background-color: #59789b;
   border-radius: 10px;
-
 }
 
 #our-goal ul {
@@ -119,7 +118,7 @@ section h1 {
   color: white;
   list-style: none;
   margin-top: 20px;
-  margin-bottom: 2em;
+  margin-bottom: 2.4em;
   font-size: clamp(1em, 2.5vw, 3em);
   transition: 0.5s ease;
   width: 37%;
