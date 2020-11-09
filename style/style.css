@@ -19,9 +19,16 @@ body {
 a {
   text-decoration: none;
 }
+h1{
+  font-size: clamp(2em, 8vw, 4em);
+}
+#logo{
+  font-size: clamp(1.4em,1vw,2em);
+}
 
 /* NAV AND MAIN-HEAD*/
 .main-head {
+  width: 100vw;
   color: white;
   background-color: #453b7c;
   position: sticky;
@@ -31,7 +38,7 @@ a {
 nav {
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin: auto;
   flex-wrap: wrap;
   min-height: 10vh;
@@ -58,7 +65,7 @@ nav a {
   font-style: initial;
   color: white;
   text-transform: uppercase;
-  font-size: clamp(1.5rem, 1.5vw, 3rem);
+  font-size: clamp(1em, 2.5vw, 2.5em);
   transform: 0.5s ease;
 }
 
@@ -83,7 +90,7 @@ section h1 {
   padding-top: 10vh;
   padding-bottom: 20px;
   color: white;
-  font-size: 4em;
+ 
   font-weight: 300;
   letter-spacing: 1vmax;
 }
@@ -105,9 +112,14 @@ section p {
 }
 
 #hero-index h1 {
+<<<<<<< HEAD
   font-weight: bold;
   font-size: 5rem;
   letter-spacing: 0;
+=======
+  color: white;
+
+>>>>>>> 6736c8460347a846c37a780403a4f441d967250e
 }
 
 
@@ -159,7 +171,7 @@ section p {
   margin: 1%;
   padding: 20px;
   width: 47.5%;
-  height: 150px;
+  height: 157px;
   display: inline-block;
   /* border: 2px solid white; */
   background-color: rgb(89, 120, 155);
