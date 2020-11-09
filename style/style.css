@@ -23,10 +23,7 @@ a {
 /* NAV AND MAIN-HEAD*/
 .main-head {
   color: white;
-  /* 
   background-color: #453b7c;
-  
-  */
   position: sticky;
   top: 0;
 }
