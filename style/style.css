@@ -8,8 +8,9 @@
 }
 
 body {
-  background: url("../img/pexels-min-an-853168.jpg");
+  background: url("../img/ameen-fahmy-_gEKtyIbRSM-unsplash.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -45,10 +46,6 @@ nav ul {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-}
-
-nav li {
-  padding-left: 3vw;
 }
 
 nav a {
@@ -125,6 +122,7 @@ section h1 {
   text-align: center;
   border-radius: 10px;
 }
+
 #our-goal li:hover {
   background-color: goldenrod;
   color: black;
@@ -133,6 +131,7 @@ section h1 {
   cursor: default;
   transform: rotateY(720deg) rotateX(720deg);
 }
+
 #schedule {
   background-color: #59789b;
   border-radius: 10px;
