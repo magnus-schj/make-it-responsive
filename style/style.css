@@ -7,32 +7,53 @@
   box-sizing: border-box;
 }
 
-nav {
-  top: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  min-height: 50px;
+body {
+  background: url("../img/pexels-min-an-853168.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NAV AND MAIN-HEAD*/
+.main-head {
+  color: white;
   background-color: #565656;
-  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  min-height: 10vh;
+  padding: 2rem;
+}
+
+#logo {
+  flex: 2 1 40rem;
 }
 
 nav ul {
-  width: 100%;
+  flex: 1 1 40rem;
   list-style: none;
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
   padding: 10px;
 }
 
 nav li {
   padding-left: 3vw;
-  display: inline-flex;
 }
 
 nav a {
   border-radius: 5px;
   padding: 3px 4px 3px 4px;
-  text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: initial;
@@ -49,6 +70,8 @@ nav a:hover {
   transition: 0.5s;
 }
 
+/* SECTIO BASE-ATRIBUTES */
+
 section {
   width: 80vw;
   min-height: 100vh;
@@ -62,16 +85,58 @@ section h1 {
   color: white;
 }
 
+/* SECTION CUSTOM STYLING */
+
 #hero-index {
-  background-color: #c5c5c5;
+  background-color: #50419e8e;
+}
+
+#our-goal {
+  background-color: #886262;
+}
+
+#schedule {
+  background-color: #696288;
+}
+
+#contact {
+  background-color: #886362;
+  background-color: #a29b4c;
+  border-radius: 10px;
 }
 
 #our-goal {
   background-color: #59789b;
+  border-radius: 10px;
+
 }
 
+#our-goal ul {
+  margin-left: 2vw;
+}
+
+#our-goal li {
+  color: white;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 2em;
+  font-size: clamp(1em, 2.5vw, 3em);
+  transition: 0.5s ease;
+  width: 37%;
+  text-align: center;
+  border-radius: 10px;
+}
+#our-goal li:hover {
+  background-color: goldenrod;
+  color: black;
+  box-shadow: 0 0 5px 10px gold;
+  transition: 0.5s ease;
+  cursor: default;
+  transform: rotateY(720deg) rotateX(720deg);
+}
 #schedule {
   background-color: #59789b;
+  border-radius: 10px;
 }
 
 #contact {
@@ -85,7 +150,10 @@ section h1 {
 p,
 img {
   padding: 20px;
+  border-radius: 10px;
 }
+
+/* FOOTER */
 
 footer {
   width: 100%;
