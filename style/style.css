@@ -88,12 +88,11 @@ section h1 {
 /* SECTION CUSTOM STYLING */
 
 #hero-index {
-
   background-color: #50419e8e;
 }
 
 #our-goal {
-  background-color:#886262;
+  background-color: #886262;
 }
 
 #schedule {
@@ -105,34 +104,34 @@ section h1 {
   background-color: #a29b4c;
   border-radius: 10px;
 }
- 
 
 #our-goal {
   background-color: #59789b;
   border-radius: 10px;
 }
 
-#our-goal ul{
+#our-goal ul {
   margin-left: 2vw;
 }
 
-#our-goal li{
+#our-goal li {
   color: white;
   list-style: none;
   margin-top: 20px;
   margin-bottom: 2em;
   font-size: clamp(1em, 2.5vw, 3em);
   transition: 0.5s ease;
-  width:37%;
+  width: 37%;
   text-align: center;
   border-radius: 10px;
 }
-#our-goal li:hover{
-background-color: goldenrod;
-color: black;
-box-shadow: 0 0 5px 10px gold;
-transition: 0.5s ease;
-cursor: default;
+#our-goal li:hover {
+  background-color: goldenrod;
+  color: black;
+  box-shadow: 0 0 5px 10px gold;
+  transition: 0.5s ease;
+  cursor: default;
+  transform: rotateY(1080deg);
 }
 #schedule {
   background-color: #59789b;
@@ -142,7 +141,6 @@ cursor: default;
 #contact {
   background-color: #59789b;
   border-radius: 10px;
-
 }
 
 /* FOOTER */
