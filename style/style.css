@@ -108,6 +108,7 @@ section h1 {
 #our-goal {
   background-color: #59789b;
   border-radius: 10px;
+
 }
 
 #our-goal ul {
@@ -140,6 +141,15 @@ section h1 {
 
 #contact {
   background-color: #59789b;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+
+#contact,
+p,
+img {
+  padding: 20px;
   border-radius: 10px;
 }
 
