@@ -244,7 +244,7 @@ footer div {
 
 footer a {
   text-decoration: underline;
-  columns: white;
+  color: white;
 }
 
 footer div:nth-child(2) {
