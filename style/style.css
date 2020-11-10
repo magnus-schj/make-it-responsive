@@ -29,6 +29,7 @@ h1 {
 }
 
 /* NAV AND MAIN-HEAD*/
+
 .main-head {
   width: 100vw;
   color: white;
@@ -79,6 +80,7 @@ nav a:hover {
 }
 
 /* SECTION BASE ATTRIBUTES */
+
 section {
   width: 80vw;
   min-height: 100vh;
@@ -92,7 +94,6 @@ section h1 {
   padding-top: 10vh;
   padding-bottom: 20px;
   color: white;
-
   font-weight: 300;
   letter-spacing: 1vmax;
 }
@@ -119,7 +120,7 @@ section p {
   letter-spacing: 0;
 }
 
-
+/* OUR GOAL */
 #our-goal {
   background-color: #886262;
   /*
@@ -152,8 +153,7 @@ section p {
   cursor: default;
 }
 
-
-
+/* SCHEDULE */
 #schedule {
   background-color: rgba(89, 120, 155, 0.8);
   border-radius: 10px;
@@ -168,9 +168,8 @@ section p {
   margin: 1%;
   padding: 20px;
   width: 47.5%;
-  height: 157px;
+  height: 150px;
   display: inline-block;
-  /* border: 2px solid white; */
   background-color: rgb(89, 120, 155);
   overflow: hidden;
 }
@@ -199,6 +198,7 @@ section p {
   padding-left: 5%;
 }
 
+/* CONTACT */
 #contact {
   background-color: #886362;
   background-color: #a29b4c;
@@ -213,9 +213,8 @@ section p {
   font-size: x-large;
 }
 
-#contact,
-p,
-img {
+#contact p,
+#contact img {
   padding: 20px;
   border-radius: 10px;
 }
@@ -226,7 +225,7 @@ footer {
   width: 100%;
   position: absolute;
   display: inline-block;
-  background-color: #565656;
+  background-color: #453b7c;
   color: white;
   text-align: center;
   /* margin: 2px;
@@ -241,6 +240,11 @@ footer div {
   float: left;
   margin: 20px 0;
   padding: 0 30px 30px;
+}
+
+footer a {
+  text-decoration: underline;
+  columns: white;
 }
 
 footer div:nth-child(2) {
