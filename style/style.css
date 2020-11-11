@@ -52,7 +52,7 @@ nav {
 
 #logo a {
   font-size: 3rem;
-  font-family: 'Big Shoulders Inline Display', cursive;
+  text-transform: none;
 }
 
 nav ul {
@@ -75,7 +75,7 @@ nav a {
   transform: 0.5s ease;
 }
 
-nav a:hover {
+nav ul a:hover {
   background-color: #c93787;
   color: white;
   box-shadow: 0 0 10px 2px #912660;
