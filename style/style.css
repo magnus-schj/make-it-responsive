@@ -32,7 +32,6 @@ h1 {
 /* NAV AND MAIN-HEAD*/
 
 .main-head {
-  width: 100vw;
   color: white;
   background-color: rgb(54, 37, 78);
   position: sticky;
