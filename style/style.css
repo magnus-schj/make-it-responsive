@@ -46,14 +46,14 @@ nav {
   width: 100%;
   margin: auto;
   flex-wrap: wrap;
-  height: 10vh;
-  min-height: 50px;
+  min-height: 10vh;
   padding: 0.5rem;
 }
 
-/* #logo {
-  flex: 2 1 40rem;
-} */
+#logo a {
+  font-size: 3rem;
+  font-family: 'Big Shoulders Inline Display', cursive;
+}
 
 nav ul {
   flex: 1 1 40rem;
