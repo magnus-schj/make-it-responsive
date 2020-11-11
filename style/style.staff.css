@@ -13,20 +13,3 @@
   height: 30vh;
   background-color: rgba(89, 120, 155, 0.6);
 }
-
-#contact {
-    min-height: 50vh;
-    background-color: #886362;
-    background-color: #a29b4c;
-    background-color: #59789b;
-    /* border-radius: 10px; */
-    color: white;
-    text-align: center;
-    font-size: x-large;
-  }
-  
-  #contact p,
-  #contact img {
-    padding: 20px;
-    border-radius: 10px;
-  }
