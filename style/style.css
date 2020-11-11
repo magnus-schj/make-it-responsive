@@ -105,6 +105,8 @@ section p {
 
 /* SECTION CUSTOM STYLING */
 
+/* HERO */
+
 #hero-index {
   /* #50419e8e */
   height: 90vh;
@@ -121,6 +123,20 @@ section p {
   font-weight: bold;
   font-size: 5rem;
   letter-spacing: 0;
+}
+
+#hero-index button {
+  margin-top: 2rem;
+  border: none;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  background: #912660;
+  color: white;
+  font-size: 1rem;
+}
+
+#hero-index button:hover {
+  cursor: pointer;
 }
 
 /* OUR GOAL */
@@ -267,7 +283,7 @@ footer div:nth-child(2) {
 
 @media screen and (max-width: 500px) {
   section {
-  width: 100vw;
-  margin: 0 0 5vw;
+    width: 100vw;
+    margin: 0 0 5vw;
   }
 }
