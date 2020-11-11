@@ -58,7 +58,7 @@ nav {
 #logo a {
   font-size: 3rem;
   text-transform: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-shadow: 3px 3px rgb(116, 85, 160);
 }
 
@@ -301,6 +301,10 @@ footer div:nth-child(2) {
 @media screen and (max-width: 500px) {
   section {
     width: 100vw;
-    margin: 0 0 5vw;
+    margin: 0;
+  }
+
+  #contact {
+    background-color: #3d4d5f;
   }
 }
