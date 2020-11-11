@@ -1,3 +1,7 @@
+section h1 {
+  letter-spacing: normal;
+}
+
 #hero-staff {
   height: 30vh;
   display: flex;
