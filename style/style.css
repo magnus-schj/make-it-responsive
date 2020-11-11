@@ -33,7 +33,6 @@ h1 {
 .main-head {
   width: 100vw;
   color: white;
-  background-color: #453b7c;
   background-color: rgb(54, 37, 78);
   position: sticky;
   top: 0;
@@ -43,6 +42,7 @@ h1 {
 nav {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   margin: auto;
   flex-wrap: wrap;
@@ -50,9 +50,15 @@ nav {
   padding: 0.5rem;
 }
 
+#logo {
+  flex: 2 1 40rem;
+}
+
 #logo a {
   font-size: 3rem;
   text-transform: none;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: 3px 3px rgb(116, 85, 160);
 }
 
 nav ul {
@@ -278,11 +284,17 @@ footer div:nth-child(2) {
   border-right: 1px solid #c5c5c5;
 }
 
-/* SMALLER SCREENS */
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1200px) {
   #schedule .event {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1295px) {
+  #logo {
+    text-align: center;
   }
 }
 
