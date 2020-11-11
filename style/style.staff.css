@@ -1,8 +1,14 @@
+/* GENERALL STYLINGS */
 section h1 {
   letter-spacing: normal;
 }
 
+/* HERO */
 
+#hero-staff img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
 
 #staff {
   background-color: rgba(89, 120, 155, 0.6);
