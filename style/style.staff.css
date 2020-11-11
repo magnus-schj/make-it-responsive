@@ -4,12 +4,27 @@ section h1 {
 }
 
 /* HERO */
-
 #hero-staff img {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
 
+/* STAFF */
+
 #staff {
-  background-color: rgba(89, 120, 155, 0.6);
+  background-color: rgba(89, 120, 155, 0.99);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.person-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(31, 54, 80);
+  margin: 1rem;
+  border-radius: 5px;
 }
