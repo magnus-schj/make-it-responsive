@@ -91,9 +91,8 @@ nav ul a:hover {
 /* SECTION BASE ATTRIBUTES */
 
 section {
-  width: 80vw;
   /* min-height: 100vh; */
-  margin: 0 auto 5vw;
+
   padding: 0 5vw 5vw;
 }
 
@@ -104,10 +103,6 @@ section h1 {
   color: white;
   font-weight: 300;
   letter-spacing: 1vmax;
-}
-section:hover {
-  transition: 5s;
-  transform: rotateX(720deg);
 }
 
 section p {
